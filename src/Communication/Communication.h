@@ -1,0 +1,2 @@
+void periodicGetCommands();
+void initRFCommunication();

@@ -16,5 +16,7 @@ void loop() {
   blinkLeds();
   periodicGetCommands();
   serverHandleClient();
+  checkData();
+  showBatteryLevel();
   delay(1);
 }

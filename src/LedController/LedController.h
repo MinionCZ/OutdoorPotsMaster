@@ -6,3 +6,5 @@ void clearVoltageLed();
 void showVoltageLeds(int leds);
 void blinkLeds();
 void toggleBlinkingLeds(bool status);
+void checkData();
+void showBatteryLevel();

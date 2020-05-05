@@ -8,10 +8,9 @@ class DataClass {
   bool charging;
   bool connected;
   bool water;
-  static DataClass* instance;
-  DataClass();
-
+ 
  public:
+  DataClass();
   void setBatteryVoltage(double batteryVoltage);
   double getBatteryVoltage();
   void setSolarPanelVoltage(double solarPanelVoltage);
